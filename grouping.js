@@ -1,4 +1,4 @@
-var member = [
+const member = [
     "Raihan",
     "Ruly",
     "Gezant",
