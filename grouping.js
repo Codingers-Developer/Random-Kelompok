@@ -32,15 +32,15 @@ const member = [
     "Arya",
     "Sandy",
 ];
-var group = [];
-var jml = member.length / 2;
-for (var i = 1; i <= jml; i++) {
-    var temp = [];
+let group = [];
+let jml = member.length / 2;
+for (let i = 1; i <= jml; i++) {
+    let temp = [];
     while (temp.length < Math.floor(member.length / jml)) {
-        var num = Math.floor(Math.random() * member.length);
+        let num = Math.floor(Math.random() * member.length);
         if (!temp.includes(member[num])) {
-            var found = false;
-            for (var j = 0; j < group.length; j++) {
+            let found = false;
+            for (let j = 0; j < group.length; j++) {
                 if (group[j].includes(member[num])) {
                     found = true;
                     break;
@@ -53,19 +53,19 @@ for (var i = 1; i <= jml; i++) {
     }
     group.push(temp);
 }
-var remainMember = member.filter(function (member) { return !group.flat().includes(member); });
+let remainMember = member.filter(function (member) { return !group.flat().includes(member); });
 while (remainMember.length > 0) {
-    for (var i = 0; i < group.length; i++) {
+    for (let i = 0; i < group.length; i++) {
         if (remainMember.length > 0) {
-            var memberIndex = Math.floor(Math.random() * remainMember.length);
+            let memberIndex = Math.floor(Math.random() * remainMember.length);
             group[i].push(remainMember[memberIndex]);
             remainMember.splice(memberIndex, 1);
         }
     }
 }
-for (var i = 0; i < group.length; i++) {
+for (let i = 0; i < group.length; i++) {
     console.log("group ".concat((i + 1).toString()));
-    for (var j = 0; j < group[i].length; j++) {
+    for (let j = 0; j < group[i].length; j++) {
         console.log(group[i][j]);
     }
     console.log();
