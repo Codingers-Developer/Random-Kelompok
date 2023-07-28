@@ -3,7 +3,7 @@ const member: string[] = [
   "Ruly",
   "Gezant",
   "Azki",
-  "Ramadan",
+  "Ramadhan",
   "Andika",
   "Ica",
   "Ikbal",

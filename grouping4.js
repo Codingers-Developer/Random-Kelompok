@@ -3,7 +3,7 @@ const member = [
     "Ruly",
     "Gezant",
     "Azki",
-    "Ramadan",
+    "Ramadhan",
     "Andika",
     "Ica",
     "Ikbal",

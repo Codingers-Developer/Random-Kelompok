@@ -3,7 +3,7 @@ const member = [
     "Ruly",
     "Gezant",
     "Azki",
-    "Ramadan",
+    "Ramadhan",
     "Andika",
     "Ica",
     "Ikbal",
@@ -30,7 +30,6 @@ const member = [
     "Rosa",
     "Ahmad",
     "Arya",
-    "Sandy",
 ];
 let group = [];
 let jml = member.length / 2;

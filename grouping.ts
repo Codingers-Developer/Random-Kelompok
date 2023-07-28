@@ -3,7 +3,7 @@ const member: string[] = [
   "Ruly",
   "Gezant",
   "Azki",
-  "Ramadan",
+  "Ramadhan",
   "Andika",
   "Ica",
   "Ikbal",
@@ -30,7 +30,6 @@ const member: string[] = [
   "Rosa",
   "Ahmad",
   "Arya",
-  "Sandy",
 ];
 
 let group: string[][] = [];
