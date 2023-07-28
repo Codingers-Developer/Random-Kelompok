@@ -10,8 +10,9 @@
   - grouping4.js // grouping4.ts
   - Program Random Kelompok 4 Orang (Javascript | Typescript)
 ```
-- Run Program
-```bash
-  $ node namefile.js // grouping.js  | Javascript
-  $ npx ts-node namefile.ts // grouping4.ts | Typescript
-```
+### Run Program
+- `$ node namefile.js // grouping.js  | Javascript`
+- `$ npx ts-node namefile.ts // grouping4.ts | Typescript`
+
+## Our License
+**[LICENSE](https://github.com/Codingers-Developer/Random-Kelompok/blob/main/LICENSE)**
