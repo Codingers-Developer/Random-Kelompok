@@ -1,14 +1,14 @@
 # Random-Kelompok
-- Aplikasi Random Kelompok 2 Orang / 4 Orang
+- Program Random Kelompok 2 Orang / 4 Orang
 ## File
 ```
   - grouping.js // grouping.ts
-  - Aplikasi Random Kelompok 2 Orang (Javascript | Typescript)
+  - Program Random Kelompok 2 Orang (Javascript | Typescript)
 ```
 
 ```
   - grouping4.js // grouping4.ts
-  - Aplikasi Random Kelompok 4 Orang (Javascript | Typescript)
+  - Program Random Kelompok 4 Orang (Javascript | Typescript)
 ```
 - Run Program
 ```
